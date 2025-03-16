@@ -2,6 +2,9 @@
 A_DEBUG = { diag_log _this; };
 if !(isServer) exitwith {};
 
+
+waitUntil {!(isNil "all_factories") and !(isNil "clothing_shops")};
+
 if ((isNil "A_AI_ARRAY")) then {
 	A_AI_ARRAY = [university , rathaus, bailflag, assassin, hostage, impoundbuy, shop1export, shop2export, shop3export, shop4export, civ_logicunit, licenseflag6];
 

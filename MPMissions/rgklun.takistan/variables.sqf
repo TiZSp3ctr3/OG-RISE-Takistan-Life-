@@ -96,7 +96,10 @@ stock_shares = [
 
 ];
 
-
+// Community Goal 
+community_goal_met = false; // Disable December 4th
+community_goal_salary = 25000;
+community_support_shops = [];
 
 chiefBekommtSteuern      = 35;
 commanderSteuern             = 0;
@@ -325,10 +328,7 @@ istsh = false;
 isstaff = false;
 
 
-// Community Goal 
-community_goal_met = false; // Disable December 4th
-community_goal_salary = 25000;
-community_support_shops = [];
+
 
 // Donor
 donator1 = false;

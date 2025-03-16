@@ -125,9 +125,6 @@ mine_shop = [takistan_mine];
 
 pmc_skin_list = [];
 
-{
-	_array = [_x] call C_array_d;
-	pmc_skin_list set[(count pmc_skin_list), (_array select 1)];
-} forEach CS_PMC_1;
+
 
 diag_log "Taki Life Init - Awesome Init Finished";

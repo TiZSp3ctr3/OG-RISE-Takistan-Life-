@@ -71,8 +71,8 @@ agreement_dialog = {
 	_button ctrlEnable true;
 	_button ctrlSetText format ["I Agree"];
 	
-	waitUntil {(police_agreement or isStaff or srt or vice or supervisor)};
+	//waitUntil {(police_agreement or isStaff or srt or vice or supervisor)};
 		
 	closedialog 0;
-	[format ["%1_persistent",getplayeruid player], format ["%1_persistent",getplayeruid player],  "police_agreement","true"] call fn_SaveToServer;
+	//[format ["%1_persistent",getplayeruid player], format ["%1_persistent",getplayeruid player],  "police_agreement","true"] call fn_SaveToServer;
 };

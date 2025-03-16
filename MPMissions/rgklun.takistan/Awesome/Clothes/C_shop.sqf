@@ -273,7 +273,7 @@ Clothes =
 // The shops use the name (look at the Clothes array) not the classnames
 
 
-CS_PMC_1 =
+CSL_PMC_1 =
 [
 "PMC_CONTRACTOR_1",
 "PMC_CONTRACTOR_2",
@@ -294,6 +294,11 @@ CS_PMC_1 =
 "PMC_SC_4",
 "PMC_DM"
 ];
+
+{
+	_array = [_x] call C_array_d;
+	pmc_skin_list set[(count pmc_skin_list), (_array select 1)];
+} forEach CSL_PMC_1;
 
 CSL_TER_1 =
 [
@@ -588,7 +593,7 @@ CSL_SECRET_INS =
 Clothing_Shops =
 [
 // NAME, ARRAY, SIDE, bool test, Licenses
-[CS_PMC_1, 		CS_PMC_1, 			civilian,		isciv,		["pmc_license_journeyman"],						cam_pmc_1],
+[CS_PMC_1, 		CSL_PMC_1, 			civilian,		isciv,		["pmc_license_journeyman"],						cam_pmc_1],
 [CS_INSURGENT,  CSL_INS_1, 			resistance,		isins,		[""],											cam_pmc_1],
 [CS_CIV_1, 		CSL_CIV_1, 			civilian,		isciv,		[""],											cam_civ_1],
 [CS_CIV_2, 		CSL_CIV_1, 			civilian,		isciv,		[""],											cam_civ_2],
@@ -620,4 +625,4 @@ private["_array"];
 {
 	_array = [_x] call C_array_d;
 	pmc_skin_list set[(count pmc_skin_list), (_array select 1)];
-} forEach CS_PMC_1;
+} forEach CSL_PMC_1;

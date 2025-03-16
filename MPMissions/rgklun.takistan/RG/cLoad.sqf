@@ -13,7 +13,7 @@
 	
 	if(iscop) then
 	{
-		[format ["%1_persistent",_uid], format ["%1_persistent",_uid], "police_agreement", "STRING", _cid] call sendToServer;
+		//[format ["%1_persistent",_uid], format ["%1_persistent",_uid], "police_agreement", "STRING", _cid] call sendToServer;
 		[_uid, _uid, "moneyAccountWest", "NUMBER", _cid] call sendToServer;
 		[_uid, _uid, "backpack_west", "ARRAY", _cid] call sendToServer;
 		[_uid, _uid, "WeaponsPlayerWest", "ARRAY", _cid] call sendToServer;
@@ -104,13 +104,14 @@
 	uiSleep 1;
 	stats_loaded = true;
 	
+	/*
 	if (!police_agreement and iscop and !(isStaff or srt or vice or supervisor)) then {
 		[] spawn agreement_dialog;
 	};
 	if (iscop) then {
 		waitUntil {(police_agreement or isStaff or srt or vice or supervisor)};
 	};
-	
+	*/
 	[] execvm "scripts\introtext.sqf";
 	
 	[] call open_spawn_menu;
