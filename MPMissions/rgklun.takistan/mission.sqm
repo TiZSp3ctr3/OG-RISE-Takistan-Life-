@@ -76358,8 +76358,8 @@ class Mission
 			age="UNKNOWN";
 			name="opf_safezone";
 			expCond="(vehicle player) in thislist";
-			expActiv="if (!(playerside == east or isopf or isstaff or player in [opf1,opf2,opf3,opf4,opf5,opf6,opf7,opf8,opf9,opf10,opf11,opf12,opf13,opf14,opf15,opf16,opf17,opf18,opf19,opf20,opf21,opf22]) and (getposatl vehicle player select 2 < 10)) exitWith {systemChat format [""You're not an opfor.""]; player setpos (getmarkerPos ""opf_tele"")};  insafezone = true ; player setVariable [""insafezone"",true,true]; player groupchat ""entering safezone"";";
-			expDesactiv="insafezone = false ; player setVariable [""insafezone"",false,true]; player groupchat ""leaving safezone"";";
+			expActiv="if (!(playerside == east or isopf or isstaff or player in [opf1,opf2,opf3,opf4,opf5,opf6,opf7,opf8,opf9,opf10,opf11,opf12,opf13,opf14,opf15,opf16,opf17,opf18,opf19,opf20,opf21,opf22]) and (getposatl vehicle player select 2 < 10)) exitWith {systemChat format [""You're not an opfor.""]; player setpos (getmarkerPos ""opf_tele"")};  insafezone = true ; player setVariable [""insafezone"",true,true]; player groupchat ""ENTERING SAFEZONE"";";
+			expDesactiv="insafezone = false ; player setVariable [""insafezone"",false,true]; player groupchat ""LEAVING SAFEZONE"";";
 			class Effects
 			{
 			};
@@ -76437,8 +76437,8 @@ class Mission
 			age="UNKNOWN";
 			name="north_civ_safezone";
 			expCond="(vehicle player) in thislist";
-			expActiv="insafezone = true ; player setVariable [""insafezone"",true,true]; player groupchat ""entering safezone"";";
-			expDesactiv="insafezone = false ; player setVariable [""insafezone"",false,true]; player groupchat ""leaving safezone"";";
+			expActiv="insafezone = true ; player setVariable [""insafezone"",true,true]; player groupchat ""ENTERING SAFEZONE"";";
+			expDesactiv="insafezone = false ; player setVariable [""insafezone"",false,true]; player groupchat ""LEAVING SAFEZONE"";";
 			class Effects
 			{
 			};
@@ -76473,8 +76473,8 @@ class Mission
 			age="UNKNOWN";
 			name="spawn_trigger_1_1";
 			expCond="(vehicle player) in thislist";
-			expActiv="insafezone = true ; player setVariable [""insafezone"",true,true]; player groupchat ""entering safezone"";";
-			expDesactiv="insafezone = false ; player setVariable [""insafezone"",false,true]; player groupchat ""leaving safezone"";";
+			expActiv="insafezone = true ; player setVariable [""insafezone"",true,true]; player groupchat ""ENTERING SAFEZONE"";";
+			expDesactiv="insafezone = false ; player setVariable [""insafezone"",false,true]; player groupchat ""LEAVING SAFEZONE"";";
 			class Effects
 			{
 			};
@@ -76491,8 +76491,8 @@ class Mission
 			age="UNKNOWN";
 			name="spawn_trigger_1_1_1";
 			expCond="(vehicle player) in thislist";
-			expActiv="insafezone = true ; player setVariable [""insafezone"",true,true]; player groupchat ""entering safezone"";";
-			expDesactiv="insafezone = false ; player setVariable [""insafezone"",false,true]; player groupchat ""leaving safezone"";";
+			expActiv="insafezone = true ; player setVariable [""insafezone"",true,true]; player groupchat ""ENTERING SAFEZONE"";";
+			expDesactiv="insafezone = false ; player setVariable [""insafezone"",false,true]; player groupchat ""LEAVING SAFEZONE"";";
 			class Effects
 			{
 			};
@@ -76510,8 +76510,8 @@ class Mission
 			age="UNKNOWN";
 			name="spawn_trigger_1_1_2";
 			expCond="(vehicle player) in thislist";
-			expActiv="insafezone = true ; player setVariable [""insafezone"",true,true]; player groupchat ""entering safezone"";";
-			expDesactiv="insafezone = false ; player setVariable [""insafezone"",false,true]; player groupchat ""leaving safezone"";";
+			expActiv="insafezone = true ; player setVariable [""insafezone"",true,true]; player groupchat ""ENTERING SAFEZONE"";";
+			expDesactiv="insafezone = false ; player setVariable [""insafezone"",false,true]; player groupchat ""LEAVING SAFEZONE"";";
 			class Effects
 			{
 			};
@@ -76528,8 +76528,8 @@ class Mission
 			age="UNKNOWN";
 			name="spawn_trigger_1_1_3";
 			expCond="(vehicle player) in thislist";
-			expActiv="insafezone = true ; player setVariable [""insafezone"",true,true]; player groupchat ""entering safezone"";";
-			expDesactiv="insafezone = false ; player setVariable [""insafezone"",false,true]; player groupchat ""leaving safezone"";";
+			expActiv="insafezone = true ; player setVariable [""insafezone"",true,true]; player groupchat ""ENTERING SAFEZONE"";";
+			expDesactiv="insafezone = false ; player setVariable [""insafezone"",false,true]; player groupchat ""LEAVING SAFEZONE"";";
 			class Effects
 			{
 			};
@@ -76547,8 +76547,8 @@ class Mission
 			age="UNKNOWN";
 			name="opf_donator_safezone";
 			expCond="(vehicle player) in thislist";
-			expActiv="insafezone = true ; player setVariable [""insafezone"",true,true]; player groupchat ""entering safezone"";";
-			expDesactiv="insafezone = false ; player setVariable [""insafezone"",false,true]; player groupchat ""leaving safezone"";";
+			expActiv="insafezone = true ; player setVariable [""insafezone"",true,true]; player groupchat ""ENTERING SAFEZONE"";";
+			expDesactiv="insafezone = false ; player setVariable [""insafezone"",false,true]; player groupchat ""LEAVING SAFEZONE"";";
 			class Effects
 			{
 			};
@@ -76566,8 +76566,8 @@ class Mission
 			age="UNKNOWN";
 			name="srt_safezone";
 			expCond="(vehicle player) in thislist";
-			expActiv="if (!(srt or isstaff or player in [cop16,cop17,cop18,cop19,cop20,cop21,cop22]) and (getposatl vehicle player select 2 < 10)) exitWith {systemChat format [""You're not srt.""]; player setpos (getmarkerPos ""srt_tele"")};  insafezone = true ; player setVariable [""insafezone"",true,true]; player groupchat ""entering safezone""; [player] call reskin_unit;";
-			expDesactiv="insafezone = false ; player setVariable [""insafezone"",false,true]; player groupchat ""leaving safezone"";";
+			expActiv="if (!(srt or isstaff or player in [cop16,cop17,cop18,cop19,cop20,cop21,cop22]) and (getposatl vehicle player select 2 < 10)) exitWith {systemChat format [""You're not srt.""]; player setpos (getmarkerPos ""srt_tele"")};  insafezone = true ; player setVariable [""insafezone"",true,true]; player groupchat ""ENTERING SAFEZONE""; [player] call reskin_unit;";
+			expDesactiv="insafezone = false ; player setVariable [""insafezone"",false,true]; player groupchat ""LEAVING SAFEZONE"";";
 			class Effects
 			{
 			};
@@ -76687,8 +76687,8 @@ class Mission
 			age="UNKNOWN";
 			name="spawn_trigger_3_1_1_1";
 			expCond="(vehicle player) in thislist";
-			expActiv="if (!(playerside == west or iscop or isstaff or player in [cop1,cop2,cop3,cop4,cop5,cop6,cop7,cop8,cop9,cop10,cop11,cop12,cop13,cop14,cop15,cop16,cop17,cop18,cop19,cop20,cop21,cop22]) and (getposatl vehicle player select 2 < 10)) exitWith {systemChat format [""You're not a cop.""]; player setpos (getmarkerPos ""bluf_tele"")}; insafezone = true ; player setVariable [""insafezone"",true,true]; player groupChat ""Entering Safezone"";";
-			expDesactiv="insafezone = false ; player setVariable [""insafezone"",false,true] ;player groupChat ""Leaving Safezone"";";
+			expActiv="if (!(playerside == west or iscop or isstaff or player in [cop1,cop2,cop3,cop4,cop5,cop6,cop7,cop8,cop9,cop10,cop11,cop12,cop13,cop14,cop15,cop16,cop17,cop18,cop19,cop20,cop21,cop22]) and (getposatl vehicle player select 2 < 10)) exitWith {systemChat format [""You're not a cop.""]; player setpos (getmarkerPos ""bluf_tele"")}; insafezone = true ; player setVariable [""insafezone"",true,true]; player groupChat ""ENTERING SAFEZONE"";";
+			expDesactiv="insafezone = false ; player setVariable [""insafezone"",false,true] ;player groupChat ""LEAVING SAFEZONE"";";
 			class Effects
 			{
 			};
@@ -76706,8 +76706,8 @@ class Mission
 			age="UNKNOWN";
 			name="airbase_safezone";
 			expCond="(vehicle player) in thislist";
-			expActiv="if (!(playerside == west or iscop or isstaff or player in [cop1,cop2,cop3,cop4,cop5,cop6,cop7,cop8,cop9,cop10,cop11,cop12,cop13,cop14,cop15,cop16,cop17,cop18,cop19,cop20,cop21,cop22]) and (getposatl vehicle player select 2 < 10)) exitWith {systemChat format [""You're not a cop.""]; player setpos (getmarkerPos ""airbase_tele"")};  insafezone = true ; player setVariable [""insafezone"",true,true]; player groupchat ""entering safezone"";";
-			expDesactiv="insafezone = false ; player setVariable [""insafezone"",false,true]; player groupchat ""leaving safezone"";";
+			expActiv="if (!(playerside == west or iscop or isstaff or player in [cop1,cop2,cop3,cop4,cop5,cop6,cop7,cop8,cop9,cop10,cop11,cop12,cop13,cop14,cop15,cop16,cop17,cop18,cop19,cop20,cop21,cop22]) and (getposatl vehicle player select 2 < 10)) exitWith {systemChat format [""You're not a cop.""]; player setpos (getmarkerPos ""airbase_tele"")};  insafezone = true ; player setVariable [""insafezone"",true,true]; player groupchat ""ENTERING SAFEZONE"";";
+			expDesactiv="insafezone = false ; player setVariable [""insafezone"",false,true]; player groupchat ""LEAVING SAFEZONE"";";
 			class Effects
 			{
 			};
@@ -76724,8 +76724,8 @@ class Mission
 			age="UNKNOWN";
 			name="south_civ_safezone";
 			expCond="(vehicle player) in thislist";
-			expActiv="insafezone = true ; player setVariable [""insafezone"",true,true]; player groupchat ""entering safezone"";";
-			expDesactiv="insafezone = false ; player setVariable [""insafezone"",false,true]; player groupchat ""leaving safezone"";";
+			expActiv="insafezone = true ; player setVariable [""insafezone"",true,true]; player groupchat ""ENTERING SAFEZONE"";";
+			expDesactiv="insafezone = false ; player setVariable [""insafezone"",false,true]; player groupchat ""LEAVING SAFEZONE"";";
 			class Effects
 			{
 			};
@@ -76990,8 +76990,8 @@ class Mission
 			age="UNKNOWN";
 			name="opf_fob_safezone";
 			expCond="(vehicle player) in thislist";
-			expActiv="if (!(playerside == east or isopf or isstaff or player in [opf1,opf2,opf3,opf4,opf5,opf6,opf7,opf8,opf9,opf10,opf11,opf12,opf13,opf14,opf15,opf16,opf17,opf18,opf19,opf20,opf21,opf22]) and (getposatl vehicle player select 2 < 10)) exitWith {systemChat format [""You're not an opfor.""]; player setpos (getmarkerPos ""fob_tele"")};  insafezone = true ; player setVariable [""insafezone"",true,true]; player groupchat ""entering safezone"";";
-			expDesactiv="insafezone = false ; player setVariable [""insafezone"",false,true]; player groupchat ""leaving safezone"";";
+			expActiv="if (!(playerside == east or isopf or isstaff or player in [opf1,opf2,opf3,opf4,opf5,opf6,opf7,opf8,opf9,opf10,opf11,opf12,opf13,opf14,opf15,opf16,opf17,opf18,opf19,opf20,opf21,opf22]) and (getposatl vehicle player select 2 < 10)) exitWith {systemChat format [""You're not an opfor.""]; player setpos (getmarkerPos ""fob_tele"")};  insafezone = true ; player setVariable [""insafezone"",true,true]; player groupchat ""ENTERING SAFEZONE"";";
+			expDesactiv="insafezone = false ; player setVariable [""insafezone"",false,true]; player groupchat ""LEAVING SAFEZONE"";";
 			class Effects
 			{
 			};
@@ -77008,8 +77008,8 @@ class Mission
 			age="UNKNOWN";
 			name="spawn_trigger_1_1_5";
 			expCond="(vehicle player) in thislist";
-			expActiv="insafezone = true ; player setVariable [""insafezone"",true,true]; player groupchat ""entering safezone"";";
-			expDesactiv="insafezone = false ; player setVariable [""insafezone"",false,true]; player groupchat ""leaving safezone"";";
+			expActiv="insafezone = true ; player setVariable [""insafezone"",true,true]; player groupchat ""ENTERING SAFEZONE"";";
+			expDesactiv="insafezone = false ; player setVariable [""insafezone"",false,true]; player groupchat ""LEAVING SAFEZONE"";";
 			class Effects
 			{
 			};
@@ -77026,8 +77026,8 @@ class Mission
 			age="UNKNOWN";
 			name="ind_safezone";
 			expCond="(vehicle player) in thislist";
-			expActiv="if (!(playerside == resistance or isins or isstaff or player in [ins1,ins2,ins3,ins4,ins5,ins6,ins7,ins8,ins9,ins10,ins11]) and (getposatl vehicle player select 2 < 10)) exitWith {systemChat format [""You're not an indy.""]; player setpos (getmarkerPos ""indi_tele"")};  insafezone = true ; player setVariable [""insafezone"",true,true]; player groupchat ""entering safezone"";";
-			expDesactiv="insafezone = false ; player setVariable [""insafezone"",false,true]; player groupchat ""leaving safezone"";";
+			expActiv="if (!(playerside == resistance or isins or isstaff or player in [ins1,ins2,ins3,ins4,ins5,ins6,ins7,ins8,ins9,ins10,ins11]) and (getposatl vehicle player select 2 < 10)) exitWith {systemChat format [""You're not an indy.""]; player setpos (getmarkerPos ""indi_tele"")};  insafezone = true ; player setVariable [""insafezone"",true,true]; player groupchat ""ENTERING SAFEZONE"";";
+			expDesactiv="insafezone = false ; player setVariable [""insafezone"",false,true]; player groupchat ""LEAVING SAFEZONE"";";
 			class Effects
 			{
 			};
@@ -77045,8 +77045,8 @@ class Mission
 			age="UNKNOWN";
 			name="osfair_safezone";
 			expCond="(vehicle player) in thislist";
-			expActiv="if (!(osf or isstaff or player in [opf16,opf17,opf18,opf19,opf20,opf21,opf22]) and (getposatl vehicle player select 2 < 10)) exitWith {systemChat format [""You're not osf.""]; player setpos (getmarkerPos ""osf_tele"")};  insafezone = true ; player setVariable [""insafezone"",true,true]; player groupchat ""entering safezone""; [player] call reskin_unit;";
-			expDesactiv="insafezone = false ; player setVariable [""insafezone"",false,true]; player groupchat ""leaving safezone"";";
+			expActiv="if (!(osf or isstaff or player in [opf16,opf17,opf18,opf19,opf20,opf21,opf22]) and (getposatl vehicle player select 2 < 10)) exitWith {systemChat format [""You're not osf.""]; player setpos (getmarkerPos ""osf_tele"")};  insafezone = true ; player setVariable [""insafezone"",true,true]; player groupchat ""ENTERING SAFEZONE""; [player] call reskin_unit;";
+			expDesactiv="insafezone = false ; player setVariable [""insafezone"",false,true]; player groupchat ""LEAVING SAFEZONE"";";
 			class Effects
 			{
 			};
@@ -77082,8 +77082,8 @@ class Mission
 			age="UNKNOWN";
 			name="esu_spawn_trigger_1";
 			expCond="(vehicle player) in thislist";
-			expActiv="insafezone = true ; player setVariable [""insafezone"",true,true]; player groupChat ""Entering Safezone""; [player] call reskin_unit;";
-			expDesactiv="insafezone = false ; player setVariable [""insafezone"",false,true] ;player groupChat ""Leaving Safezone"";";
+			expActiv="insafezone = true ; player setVariable [""insafezone"",true,true]; player groupChat ""ENTERING SAFEZONE""; [player] call reskin_unit;";
+			expDesactiv="insafezone = false ; player setVariable [""insafezone"",false,true] ;player groupChat ""LEAVING SAFEZONE"";";
 			class Effects
 			{
 			};
@@ -77119,8 +77119,8 @@ class Mission
 			age="UNKNOWN";
 			name="esu_spawn_trigger_1_1";
 			expCond="(vehicle player) in thislist";
-			expActiv="insafezone = true ; player setVariable [""insafezone"",true,true]; player groupChat ""Entering Safezone""; [player] call reskin_unit;";
-			expDesactiv="insafezone = false ; player setVariable [""insafezone"",false,true] ;player groupChat ""Leaving Safezone"";";
+			expActiv="insafezone = true ; player setVariable [""insafezone"",true,true]; player groupChat ""ENTERING SAFEZONE""; [player] call reskin_unit;";
+			expDesactiv="insafezone = false ; player setVariable [""insafezone"",false,true] ;player groupChat ""LEAVING SAFEZONE"";";
 			class Effects
 			{
 			};
@@ -77138,8 +77138,8 @@ class Mission
 			age="UNKNOWN";
 			name="opf_donator_safezone_1";
 			expCond="(vehicle player) in thislist";
-			expActiv="insafezone = true ; player setVariable [""insafezone"",true,true]; player groupchat ""entering safezone"";";
-			expDesactiv="insafezone = false ; player setVariable [""insafezone"",false,true]; player groupchat ""leaving safezone"";";
+			expActiv="insafezone = true ; player setVariable [""insafezone"",true,true]; player groupchat ""ENTERING SAFEZONE"";";
+			expDesactiv="insafezone = false ; player setVariable [""insafezone"",false,true]; player groupchat ""LEAVING SAFEZONE"";";
 			class Effects
 			{
 			};
