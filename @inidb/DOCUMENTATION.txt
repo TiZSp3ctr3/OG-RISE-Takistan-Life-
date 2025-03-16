@@ -1,0 +1,84 @@
+iniDB by SicSemperTyrannis
+
+Support: http://raiderbattalion.enjin.com/
+
+Function: iniDB_version
+Usage: diag_log call iniDB_version;
+Output: 1.0
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+Function: iniDB_CRC32
+Usage: diag_log "SicSemperTyrannis" call iniDB_CRC32;
+Output: "204E6A8B"
+Notes: This is a standard implementation and will match PHP and various other languages.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+Function: iniDB_MD5
+Usage: diag_log "SicSemperTyrannis" call iniDB_MD5;
+Output: "ee89b42582c546fe47d17b14f6331bff"
+Notes: This is a standard implementation and will match PHP and various other languages.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+Function: iniDB_Base64Encode
+Usage: diag_log "SicSemperTyrannis" call iniDB_Base64Encode;
+Output: "U2ljU2VtcGVyVHlyYW5uaXM="
+Notes: This is a standard implementation and will match PHP and various other languages.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+Function: iniDB_Base64Decode
+Usage: diag_log "U2ljU2VtcGVyVHlyYW5uaXM=" call iniDB_Base64Decode;
+Output: "SicSemperTyrannis"
+Notes: This is a standard implementation and will match PHP and various other languages.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+Function: iniDB_exists
+Usage: diag_log "myDatabaseFile" call iniDB_exists;
+Output: true if the database exists as a file, false otherwise
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+Function: iniDB_delete
+Usage: diag_log "myDatabaseFile" call iniDB_delete;
+Output: true if the file was deleted successfully, false otherwise
+Notes: If you are concerned about security, you can recompile the PBO/DLL without this function.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+Function: iniDB_read
+Usage: diag_log ["myDatabaseFile", "SicSemperTyrannis", "position"] call iniDB_read;
+Output: "[1000.0, 1000.0, 1000.0]" (STRING)
+
+Usage: diag_log ["myDatabaseFile", "SicSemperTyrannis", "position", "ARRAY"] call iniDB_read;
+Output: [1000.0, 1000.0, 1000.0] (ARRAY)
+
+Usage: diag_log ["myDatabaseFile", "SicSemperTyrannis", "health", "NUMBER"] call iniDB_read;
+Usage: diag_log ["myDatabaseFile", "SicSemperTyrannis", "health", "SCALAR"] call iniDB_read;
+Output: 100.0 (SCALAR/NUMBER)
+
+Notes: If you do not pass a third parameter, the return value is always a string. If you pass a third parameter it must be "ARRAY", "NUMBER" or "SCALAR". SCALAR and NUMBER are the same thing, NUMBER is just an alias.
+NUMBER/SCALAR will return a SCALAR type (number)
+ARRAY will return an array type.
+Anything else will return a string type.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+Function: iniDB_write
+Usage: ["myDatabaseFile", "SicSemperTyrannis", "position", position player] call iniDB_write;
+Usage: ["myDatabaseFile", "SicSemperTyrannis", "health", 100.0] call iniDB_write;
+Usage: ["myDatabaseFile", "SicSemperTyrannis", "name", profileName player] call iniDB_write;
+Output: true if the write succeeds, false otherwise.
+Notes: The fourth parameter is assumed to be a string, array or number (scalar). If it is not, it will save as a string by default. This function automatically derives the type by the variable passed.
+Please avoid saving strings or data with the character ' in it, it is an expected bug, but untested.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+Final Note: There are undocumented functions available by looking at the PBO source, but it serves little purpose trying to utilize them.
+Please hash any sensitive information passed to your server with the MD5 or CRC functions.
+Please give me credits if you use it in your mission! Not a big deal, you don't really have to, it'd just be a cool thing to do.
+
+If you want a custom extension made, feel free to give me a shout! This one is simple and stupid, but I can do some amazing things, too.
