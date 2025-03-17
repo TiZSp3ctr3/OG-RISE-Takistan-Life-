@@ -16,7 +16,7 @@ respawnDialog = false;
 onMinimapScript[] = {"BIS_fnc_customGPS_Spawn"};
 
 class Header {gameType =  TEAM; minPlayers = 1; maxPlayers = 125;};
-disableChannels[]={0};
+disableChannels[]={};
 class CfgSounds
 {
 		sounds[] 	= {Sound_Alarm2};
