@@ -196,7 +196,7 @@ tsh_salary_handout = {
 	if (istsh) then {
 		[player, _tshcashbonus] call transaction_dynamiccuntflap;
 		uiSleep 2;
-		hint format["You received a bonus income of $%1. Thanks for being a teamspeak helper!", _tshcashbonus];
+		hint format["You received a bonus income of $%1. Thanks for being a Discord helper!", _tshcashbonus];
 	};
 };
 rank_salary_handout = {

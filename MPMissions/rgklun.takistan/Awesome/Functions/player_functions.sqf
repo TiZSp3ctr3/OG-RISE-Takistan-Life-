@@ -2301,7 +2301,7 @@ player_intro_text = {_this spawn {
 		//"Do not kill unarmed civilians! \n\n Ne les tuez pas des civils desarmes! \n\n No mate a civiles desarmados!",
 		//"Do not teamkill! \n\n Ne tuez pas votre propre equipe! \n\n No mate a su propio equipo!",
 		//"Racial slurs are prohibited here. \n\n Foul language and heated arguments are OK. \n\n Racist harassment of other players is NOT.",
-		//"Game guide, rules, Teamspeak Info, and changelog on the map tabs.\n\nPlease be helpful to new players and don't grief.\n\nThis is a roleplaying server."
+		//"Game guide, rules, Discord Info, and changelog on the map tabs.\n\nPlease be helpful to new players and don't grief.\n\nThis is a roleplaying server."
 	];
 
 	private["_delay"];

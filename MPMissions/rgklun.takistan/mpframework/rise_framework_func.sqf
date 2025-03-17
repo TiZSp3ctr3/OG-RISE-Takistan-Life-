@@ -85,7 +85,7 @@ mp_start_force_ts =
 	player enablesimulation false;
 	Invulnerability = true;
 	blackscreen = true;
-	titletext ["You are required to join our teamspeak server! The address is TS3.RISE-GAMING.COM", "black"];
+	titletext ["You are required to join our Discord server! The address is https://discord.gg/dVWvxEZJBj", "black"];
 };
 
 mp_stop_force_ts =

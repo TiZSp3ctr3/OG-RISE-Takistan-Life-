@@ -541,7 +541,7 @@ class Mission
 					skill=0.60000002;
 					text="Cop1";
 					init="removeallweapons this;this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 1]; ";
-					description="Cop1 (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="Cop1 (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -563,7 +563,7 @@ class Mission
 					skill=0.60000002;
 					text="Cop2";
 					init="removeallweapons this;this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 1]; ";
-					description="Cop2 (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="Cop2 (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -585,7 +585,7 @@ class Mission
 					skill=0.60000002;
 					text="Cop3";
 					init="removeallweapons this;this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 1]; ";
-					description="Cop3 (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="Cop3 (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -607,7 +607,7 @@ class Mission
 					skill=0.60000002;
 					text="Cop4";
 					init="removeallweapons this;this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 1]; ";
-					description="Cop4 (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="Cop4 (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -629,7 +629,7 @@ class Mission
 					skill=0.60000002;
 					text="Cop5";
 					init="removeallweapons this;this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 1]; ";
-					description="Cop5 (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="Cop5 (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -651,7 +651,7 @@ class Mission
 					skill=0.60000002;
 					text="Cop6";
 					init="removeallweapons this;this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 1]; ";
-					description="Cop6 (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="Cop6 (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -924,7 +924,7 @@ class Mission
 					skill=0.60000002;
 					text="ins1";
 					init="removeallweapons this;this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 1]; ";
-					description="Insurgent Leader (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="Insurgent Leader (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -947,7 +947,7 @@ class Mission
 					skill=0.60000002;
 					text="ins2";
 					init="removeallweapons this;this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 1]; ";
-					description="Insurgent Leader (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="Insurgent Leader (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -970,7 +970,7 @@ class Mission
 					skill=0.60000002;
 					text="ins3";
 					init="removeallweapons this;this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 1]; ";
-					description="Insurgent Leader (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="Insurgent Leader (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -993,7 +993,7 @@ class Mission
 					skill=0.60000002;
 					text="ins4";
 					init="removeallweapons this;this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 1]; ";
-					description="Insurgent Leader (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="Insurgent Leader (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -1016,7 +1016,7 @@ class Mission
 					skill=0.60000002;
 					text="ins5";
 					init="removeallweapons this;this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 1]; ";
-					description="Insurgent Leader (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="Insurgent Leader (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -1039,7 +1039,7 @@ class Mission
 					skill=0.60000002;
 					text="ins7";
 					init="removeallweapons this;this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 1]; ";
-					description="Insurgent Leader (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="Insurgent Leader (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -1062,7 +1062,7 @@ class Mission
 					skill=0.60000002;
 					text="ins6";
 					init="removeallweapons this;this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 1]; ";
-					description="Insurgent Leader (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="Insurgent Leader (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -1509,7 +1509,7 @@ class Mission
 					skill=0.60000002;
 					text="ins8";
 					init="removeallweapons this;this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 1]; ";
-					description="Insurgent Leader (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="Insurgent Leader (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -1532,7 +1532,7 @@ class Mission
 					skill=0.60000002;
 					text="opf1";
 					init="removeallweapons this;";
-					description="TLA Rifleman (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="TLA Rifleman (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -1555,7 +1555,7 @@ class Mission
 					skill=0.60000002;
 					text="opf2";
 					init="removeallweapons this;";
-					description="TLA Rifleman (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="TLA Rifleman (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -1578,7 +1578,7 @@ class Mission
 					skill=0.60000002;
 					text="opf3";
 					init="removeallweapons this;";
-					description="TLA Rifleman (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="TLA Rifleman (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -1601,7 +1601,7 @@ class Mission
 					skill=0.60000002;
 					text="opf4";
 					init="removeallweapons this;";
-					description="TLA Rifleman (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="TLA Rifleman (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -1624,7 +1624,7 @@ class Mission
 					skill=0.60000002;
 					text="opf5";
 					init="removeallweapons this;";
-					description="TLA Rifleman (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="TLA Rifleman (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -1647,7 +1647,7 @@ class Mission
 					skill=0.60000002;
 					text="opf6";
 					init="removeallweapons this;";
-					description="TLA Rifleman (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="TLA Rifleman (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -1670,7 +1670,7 @@ class Mission
 					skill=0.60000002;
 					text="opf7";
 					init="removeallweapons this;";
-					description="TLA Rifleman (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="TLA Rifleman (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -1693,7 +1693,7 @@ class Mission
 					skill=0.60000002;
 					text="opf8";
 					init="removeallweapons this;";
-					description="TLA Rifleman (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="TLA Rifleman (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -1715,7 +1715,7 @@ class Mission
 					skill=0.60000002;
 					text="Cop7";
 					init="removeallweapons this;this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 1]; ";
-					description="Cop7 (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="Cop7 (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -1737,7 +1737,7 @@ class Mission
 					skill=0.60000002;
 					text="Cop8";
 					init="removeallweapons this;this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 1]; ";
-					description="Cop8 (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="Cop8 (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -1759,7 +1759,7 @@ class Mission
 					skill=0.60000002;
 					text="Cop9";
 					init="removeallweapons this;this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 1]; ";
-					description="Cop9 (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="Cop9 (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -1781,7 +1781,7 @@ class Mission
 					skill=0.60000002;
 					text="Cop10";
 					init="removeallweapons this;this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 1]; ";
-					description="Cop10 (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="Cop10 (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -1803,7 +1803,7 @@ class Mission
 					skill=0.60000002;
 					text="Cop11";
 					init="removeallweapons this;this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 1]; ";
-					description="Cop11 (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="Cop11 (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -1825,7 +1825,7 @@ class Mission
 					skill=0.60000002;
 					text="Cop12";
 					init="removeallweapons this;this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 1]; ";
-					description="Cop12 (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="Cop12 (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -1847,7 +1847,7 @@ class Mission
 					skill=0.60000002;
 					text="Cop13";
 					init="removeallweapons this;this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 1]; ";
-					description="Cop13 (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="Cop13 (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -1869,7 +1869,7 @@ class Mission
 					skill=0.60000002;
 					text="Cop14";
 					init="removeallweapons this;this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 1]; ";
-					description="Cop14 (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="Cop14 (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -1891,7 +1891,7 @@ class Mission
 					skill=0.60000002;
 					text="Cop15";
 					init="removeallweapons this;this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 1]; ";
-					description="Cop15 (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="Cop15 (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -1913,7 +1913,7 @@ class Mission
 					skill=0.60000002;
 					text="Cop16";
 					init="removeallweapons this;this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 1]; ";
-					description="Cop16 [SRT] (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="Cop16 [SRT] (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -1935,7 +1935,7 @@ class Mission
 					skill=0.60000002;
 					text="Cop17";
 					init="removeallweapons this;this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 1]; ";
-					description="Cop17 [SRT] (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="Cop17 [SRT] (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -1957,7 +1957,7 @@ class Mission
 					skill=0.60000002;
 					text="Cop18";
 					init="removeallweapons this;this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 1]; ";
-					description="Cop18 [SRT] (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="Cop18 [SRT] (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -2465,7 +2465,7 @@ class Mission
 					skill=0.60000002;
 					text="Cop19";
 					init="removeallweapons this;this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 1]; ";
-					description="Cop19 [SRT] (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="Cop19 [SRT] (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -2487,7 +2487,7 @@ class Mission
 					skill=0.60000002;
 					text="Cop20";
 					init="removeallweapons this;this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 1]; ";
-					description="Cop20 [SRT] (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="Cop20 [SRT] (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -2820,7 +2820,7 @@ class Mission
 					skill=0.60000002;
 					text="opf9";
 					init="removeallweapons this;";
-					description="TLA Rifleman (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="TLA Rifleman (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -2843,7 +2843,7 @@ class Mission
 					skill=0.60000002;
 					text="opf10";
 					init="removeallweapons this;";
-					description="TLA Rifleman (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="TLA Rifleman (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -2866,7 +2866,7 @@ class Mission
 					skill=0.60000002;
 					text="opf11";
 					init="removeallweapons this;";
-					description="TLA Rifleman (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="TLA Rifleman (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -2889,7 +2889,7 @@ class Mission
 					skill=0.60000002;
 					text="opf12";
 					init="removeallweapons this;";
-					description="TLA Rifleman (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="TLA Rifleman (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -2912,7 +2912,7 @@ class Mission
 					skill=0.60000002;
 					text="opf13";
 					init="removeallweapons this;";
-					description="TLA Rifleman (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="TLA Rifleman (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -2935,7 +2935,7 @@ class Mission
 					skill=0.60000002;
 					text="opf14";
 					init="removeallweapons this;";
-					description="TLA Rifleman (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="TLA Rifleman (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -2958,7 +2958,7 @@ class Mission
 					skill=0.60000002;
 					text="opf15";
 					init="removeallweapons this;";
-					description="TLA Rifleman (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="TLA Rifleman (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -3981,7 +3981,7 @@ class Mission
 					skill=0.60000002;
 					text="ins10";
 					init="removeallweapons this;this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 1]; ";
-					description="Insurgent Leader (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="Insurgent Leader (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -4004,7 +4004,7 @@ class Mission
 					skill=0.60000002;
 					text="ins9";
 					init="removeallweapons this;this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 1]; ";
-					description="Insurgent Leader (Requires Teamspeak: ts3.rise-gaming.com)";
+					description="Insurgent Leader (Requires Discord: https://discord.gg/dVWvxEZJBj)";
 				};
 			};
 		};
@@ -73977,7 +73977,7 @@ class Mission
 		{
 			position[]={2.7234311,252.80722,11971.132};
 			name="Rules_1";
-			text="FOR RULES & TEAMSPEAK DETAILS";
+			text="FOR RULES & Discord DETAILS";
 			type="hd_warning";
 			colorName="ColorRed";
 			a=0;
