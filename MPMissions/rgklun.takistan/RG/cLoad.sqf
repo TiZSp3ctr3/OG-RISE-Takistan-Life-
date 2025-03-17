@@ -5,9 +5,6 @@
 	_cid = player;
 	uiSleep 2;
 	titleText ["Loading Stats","PLAIN"]; // Displays text
-	if (isNil "dynamiccuntflap") then {
-			[player, startmoneh] call set_dynamiccuntflap;
-	};
 	
 	if (isNil "iscop" or isNil "isopf" or isNil "isins" or isNil "isciv" or isNil "isesu") exitWith {player groupChat "You are glitched. Stats will not be saved"};
 	
