@@ -90,7 +90,7 @@ arrest_remove_charge = {
 };
 arrest_calculate_time = {
 	_time = 0;
-	max_jailtime = 60;
+	max_jailtime = 15;
 	victim_jailtime = 0;
 	for "_i" from 0 to (count arrest_charges - 1) do {
 		_charge = arrest_charges select _i;
@@ -323,8 +323,8 @@ player_prison_persistence = {
 	if (typename player_jailtime == "STRING") then {
 		player_jailtime = parseNumber player_jailtime;
 	};
-	if (player_jailtime > 60) then {
-		_time = player_jailtime / 60;
+	if (player_jailtime > 15) then {
+		_time = player_jailtime / 15;
 		_time = round _time;
 		_message = format["%1-%2 has been sent to prison for %3 minute(s) to complete a sentence he was serving when he died/disconnected", player, (name player),_time];
 		[[], "mp_global_chat_message", [_message]] call mp_aware_me;
