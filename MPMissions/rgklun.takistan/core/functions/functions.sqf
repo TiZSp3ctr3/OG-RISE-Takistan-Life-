@@ -944,10 +944,10 @@ start_menu = {
 	];
 	_basics = [
 		"Please read our full list of rules at www.rise-gaming.com\rules",
-		"If you are a cop or opfor or un please be on teamspeak, ts3.rise-gaming.com",
+		"If you are a cop or opfor or un please be on Discord, https://discord.gg/dVWvxEZJBj",
 		"Don't RDM (Random Death Match)",
 		"Be respectful (Racism = PERM Ban)",
-		"If in doubt ask an admin (on teamspeak please)"
+		"If in doubt ask an admin (on Discord please)"
 	];
 	_keys = [
 		"F5 : Toggles TLR Keys",

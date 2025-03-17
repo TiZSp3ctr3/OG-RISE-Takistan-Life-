@@ -154,18 +154,18 @@ _array = [];
 				[[], "mp_global_chat_message", [format ["%1 has switched into the admin skin and is now out of roleplay context.  Killing him may result in a ban!",_name]]] call mp_aware_me;
 
 			},true],
-			["Force player on teamspeak (select)",
+			["Force player on Discord (select)",
 			{
 				[[_selectedplayer], "mp_start_force_ts", []] call mp_aware_me;
 				[[_selectedplayer], "mp_compile_code", ["Invulnerability = true"]] call mp_aware_me;
-				_message = format ["%1 forced %2 on Teamspeak.", name player, name _selectedplayer];
+				_message = format ["%1 forced %2 on Discord.", name player, name _selectedplayer];
 				[_message,"Admin"] call mp_log;
 			},true],
-			["Stop force teamspeak (select)",
+			["Stop force Discord (select)",
 			{
 				[[_selectedplayer], "mp_stop_force_ts", []] call mp_aware_me;
 				[[_selectedplayer], "mp_compile_code", ["Invulnerability = false"]] call mp_aware_me;
-				_message = format ["%1 stoped forcing %2 on Teamspeak.", name player, name _selectedplayer];
+				_message = format ["%1 stoped forcing %2 on Discord.", name player, name _selectedplayer];
 				[_message,"Admin"] call mp_log;
 			},true],
 			["Sack the President",	

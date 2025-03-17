@@ -54,8 +54,8 @@ tip_rules = [
 	"Be respectful to all players",
 	"Racism is a perm ban",
 	"Any type of cheating / hacking / exploiting are perm bans",
-	"If an admin request you to join teamspeak you must do so",
-	"Opfor, Blufor, and Insurgent require you to be on teamspeak",
+	"If an admin request you to join Discord you must do so",
+	"Opfor, Blufor, and Insurgent require you to be on Discord",
 	"The president may only be armed with a handgun",
 	"Do not mess with anyone in the admin skin",
 	"The Blackmarket is NOT a KOS Zone!"

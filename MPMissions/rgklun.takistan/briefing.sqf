@@ -8,11 +8,11 @@ player createDiaryRecord ["credits",
 [
 "",
 "
-TS3 Info;<br/>
-Address: ts3.rise-gaming.com<br/>
+Discord Info;<br/>
+Address: https://discord.gg/dVWvxEZJBj<br/>
 <br/>
 Official website: http://rise-gaming.com<br/>
-Join the forums, make suggestions, report bugs and be sure to get on Teamspeak!<br/>
+Join the forums, make suggestions, report bugs and be sure to get on Discord!<br/>
 
 
 
@@ -30,8 +30,7 @@ player createDiaryRecord ["bugs",
 "",
 "
 Please report bugs to the development team on the forums via the bugs section!<br/>
-Website: http://rise-gaming.com<br/>
-Teamspeak: ts3.rise-gaming.com<br/>
+Website: http://rise-gaming.com<br/> Discord: https://discord.gg/dVWvxEZJBj<br/>
 <br/>
 <br/>
 We look forward to playing with you!<br/>

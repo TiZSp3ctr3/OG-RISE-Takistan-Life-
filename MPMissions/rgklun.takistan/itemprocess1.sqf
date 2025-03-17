@@ -2,7 +2,7 @@
 
 if (processing) exitWith {};
 processing = true;
-_num = round random 100;
+_num = floor random 100;
 if(iscop)exitwith{player groupchat "only civilians can do this!";};
  _this = _this select 3;
  _item1 = _this select 0;
@@ -19,15 +19,12 @@ player groupChat "You are now processing meth! Be careful not to blow yourself u
  uiSleep 3;
 
 
-	if (_num < 5)exitwith
-	{
-	player groupchat "OH SHIT!";
-	uiSleep 1;
-	_bomb = "Bo_GBU12_LGB" createVehicle (position methlab);
-	uiSleep 3;
-	(format ['server globalChat "Citizens report hearing screams and a loud explosion near a known methlab in the mountains.";']) call broadcast;
-	
-	
+	if (_num <= 5) exitwith {
+		player groupchat "OH SHIT!";
+		uiSleep 1;
+		_bomb = "Bo_GBU12_LGB" createVehicle (getPos player);
+		uiSleep 3;
+		(format ['server globalChat "Citizens report hearing screams and a loud explosion near a known methlab in the mountains.";']) call broadcast;
 	};
 
 _total = _nitem1/3; 

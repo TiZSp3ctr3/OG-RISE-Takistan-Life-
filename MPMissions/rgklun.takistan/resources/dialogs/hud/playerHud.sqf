@@ -84,7 +84,7 @@ hud_display =
 		_missionUptimeText ctrlSetStructuredText parseText format["<t align='center' color='#990000' font='Zeppelin32' shadow='2' shadowColor='#000000' size='1'>Server Uptime: </t><t align='center' color='#FFFFFF' font='Zeppelin32' shadow='2' shadowColor='#000000' size='1'>%1</t>
 		<t align='right' color='#990000' font='Zeppelin32' size='1'>Website: </t><t align='right' color='#FFFFFF' font='Zeppelin32' shadow='2' shadowColor='#000000' size='1'>www.rise-gaming.com</t>
 		<br/>
-		<t align='right' color='#990000' font='Zeppelin32' size='1'>TeamSpeak 3: </t><t align='right' color='#ffffff' font='Zeppelin32' shadow='2' shadowColor='#000000' size='1'>ts3.rise-gaming.com</t>", _timeText];
+		<t align='right' color='#990000' font='Zeppelin32' size='1'>Discord: </t><t align='right' color='#ffffff' font='Zeppelin32' shadow='2' shadowColor='#000000' size='1'>https://discord.gg/dVWvxEZJBj</t>", _timeText];
 
 		_vitals ctrlSetStructuredText parseText format ["
 				%1 <img size='0.8' image='resources\images\health.paa'/><br/>

@@ -5,9 +5,6 @@
 	_cid = player;
 	uiSleep 2;
 	titleText ["Loading Stats","PLAIN"]; // Displays text
-	if (isNil "dynamiccuntflap") then {
-			[player, startmoneh] call set_dynamiccuntflap;
-	};
 	
 	if (isNil "iscop" or isNil "isopf" or isNil "isins" or isNil "isciv" or isNil "isesu") exitWith {player groupChat "You are glitched. Stats will not be saved"};
 	
@@ -103,6 +100,13 @@
 	
 	uiSleep 1;
 	stats_loaded = true;
+
+	private["_bank_amount"];
+ 	_bank_amount = [_cid] call get_dynamiccuntflap;
+ 	if (_bank_amount == 0) then {
+		diag_log "Setting Money to default as no stat loaded";
+		[player, startmoneh] call set_dynamiccuntflap;
+ 	};
 	
 	/*
 	if (!police_agreement and iscop and !(isStaff or srt or vice or supervisor)) then {
