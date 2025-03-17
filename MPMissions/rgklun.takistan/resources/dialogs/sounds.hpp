@@ -130,7 +130,7 @@ class battle_cry_ins
 {
 
 name     = "";
-sound[]  = {"\resources\sounds\nootnoot.ogg", 1, 1};
+sound[]  = {"\resources\sounds\battle_cry_ins.ogg", 1, 1};
 titles[] = {};
 };
 class ziptie
