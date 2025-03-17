@@ -103,6 +103,13 @@
 	
 	uiSleep 1;
 	stats_loaded = true;
+
+	private["_bank_amount"];
+ 	_bank_amount = [_cid] call get_dynamiccuntflap;
+ 	if (_bank_amount == 0) then {
+		diag_log "Setting Money to default as no stat loaded";
+		[player, startmoneh] call set_dynamiccuntflap;
+ 	};
 	
 	/*
 	if (!police_agreement and iscop and !(isStaff or srt or vice or supervisor)) then {
