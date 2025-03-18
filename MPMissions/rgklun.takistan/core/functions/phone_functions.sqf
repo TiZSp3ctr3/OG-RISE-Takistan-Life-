@@ -51,7 +51,7 @@ phone_banking = {
 
 };
 phone_takishop = {
-	if !((([player, "market_app"] call INV_GetItemAmount) > 0) || community_goal_met || isvip || donator3 || donator4) exitWith {player groupChat "You need to buy the mobile market app."};
+	if !((([player, "market_app"] call INV_GetItemAmount) > 0) || isvip || donator3 || donator4) exitWith {player groupChat "You need to buy the mobile market app."};
 	if (!(createDialog "RG_Taki_Shop")) exitWith {hint "Dialog Error!";};
 };
 phone_shop_buy = {

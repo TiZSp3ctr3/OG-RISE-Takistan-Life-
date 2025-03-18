@@ -96,10 +96,6 @@ stock_shares = [
 
 ];
 
-// Community Goal 
-community_goal_met = false; // Disable December 4th
-community_goal_salary = 25000;
-community_support_shops = [];
 
 chiefBekommtSteuern      = 35;
 commanderSteuern             = 0;
@@ -108,9 +104,9 @@ spawned = false;
 eigene_zeit              = time;
 cop_blacklist = false;
 player_jailtime = 0;
-statsLoaded = 0;
+statsLoaded = false;
 dog_array = [];
-startmoneh                   = 500000;
+startmoney                   = 500000;
 spectate_target = nil;
 defense_active = false;
 siren_shortDur     = 1.866;

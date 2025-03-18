@@ -1,16 +1,14 @@
 
-[] spawn {
 	private["_uid", "_id"];
 	_uid = getPlayerUID player;
 	_cid = player;
 	uiSleep 2;
-	titleText ["Loading Stats","PLAIN"]; // Displays text
 	
 	if (isNil "iscop" or isNil "isopf" or isNil "isins" or isNil "isciv" or isNil "isesu") exitWith {player groupChat "You are glitched. Stats will not be saved"};
 	
+	titleText ["Loading Stats","PLAIN"]; // Displays text
 	if(iscop) then
 	{
-		//[format ["%1_persistent",_uid], format ["%1_persistent",_uid], "police_agreement", "STRING", _cid] call sendToServer;
 		[_uid, _uid, "moneyAccountWest", "NUMBER", _cid] call sendToServer;
 		[_uid, _uid, "backpack_west", "ARRAY", _cid] call sendToServer;
 		[_uid, _uid, "WeaponsPlayerWest", "ARRAY", _cid] call sendToServer;
@@ -89,33 +87,16 @@
 	[format ["%1_persistent",_uid], format ["%1_persistent",_uid], "player_total_playtime", "NUMBER", _cid] call sendToServer;
 	[format ["%1_persistent",_uid], format ["%1_persistent",_uid], "online_during_hacker", "NUMBER", _cid] call sendToServer;
 	//END
-	statsLoaded = 1;
-
 	uiSleep 4; 
 	titleText ["Stats Loaded","PLAIN"]; // Displays text
+
 
 	if ((vice) && !("vice_training" call INV_HasLicense)) then {INV_LicenseOwner = INV_LicenseOwner + ["vice_training"];
 		server globalchat "VICE ACCOUNT DETECTED: VICE License Added"
 	};
 	
 	uiSleep 1;
-	stats_loaded = true;
-
-	private["_bank_amount"];
- 	_bank_amount = [_cid] call get_dynamiccuntflap;
- 	if (_bank_amount == 0) then {
-		diag_log "Setting Money to default as no stat loaded";
-		[player, startmoneh] call set_dynamiccuntflap;
- 	};
-	
-	/*
-	if (!police_agreement and iscop and !(isStaff or srt or vice or supervisor)) then {
-		[] spawn agreement_dialog;
-	};
-	if (iscop) then {
-		waitUntil {(police_agreement or isStaff or srt or vice or supervisor)};
-	};
-	*/
+	statsloaded = true;
 	[] execvm "scripts\introtext.sqf";
 	
 	[] call open_spawn_menu;
@@ -125,20 +106,6 @@
 	_message = format ["%1 logged into the server. They have logged in %2 times",name player,player_logins];
 	[_message,"Login"] call mp_log;
 	
-	if (community_goal_met) then {
-		
-		_message = format ["Congrats! The Community Donation Goal has been met! If you'd like to keep these perks, contribute to the donation goal at www.rise-gaming.com! These perks only last 30 days."];
-		server globalChat _message;
-		
-		server globalChat format ["Your current perks are: $25,000 extra on paychecks, 250 carryweight, Access to Donor Shops,  Ability to spawn at donor shops"];
-		
-		if (INV_CarryingCapacity < 250) then {
-			INV_CarryingCapacity	 = 250;
-			INV_CarryingCapacityOld	 = 250;
-		};
-	};
-};
-
 
 
 

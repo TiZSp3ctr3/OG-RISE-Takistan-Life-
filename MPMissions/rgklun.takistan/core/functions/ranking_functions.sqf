@@ -114,7 +114,7 @@ cop_refresh_allowed_weapons = {
 		cop_allowed_weapons = cop_cadet_weapons + cop_officer_weapons + cop_sergeant_weapons + cop_lieutenant_weapons + cop_colonel_weapons;
 	};
 	
-	if (isdon or community_goal_met) then {
+	if (isdon) then {
 		cop_allowed_weapons = cop_allowed_weapons + cop_donor_weapons;
 	};
 };

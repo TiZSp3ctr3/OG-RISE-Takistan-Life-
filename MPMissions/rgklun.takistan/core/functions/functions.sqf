@@ -469,7 +469,7 @@ spawn_point_config = {
 			["civ_spawnpoint_northcivspawn","North Civ Spawn"],
 			["civ_spawnpoint_southcivspawn","South Civ Spawn"]
 		];
-		if (isdon or community_goal_met) then {
+		if (isdon) then {
 			spawn_points = spawn_points + [["civ_donator_area_1","Civilian Donator"]];
 		};
 		if (isvip) then {
@@ -523,7 +523,7 @@ spawn_point_config = {
 			["police_academy_spawn","Police Academy"]
 
 		];
-		if (isdon or community_goal_met) then {
+		if (isdon) then {
 			spawn_points = spawn_points + [["cop_donator_area","Blufor Donator"]];
 		};
 		if (isvip) then {

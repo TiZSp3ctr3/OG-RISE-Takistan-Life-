@@ -166,27 +166,11 @@ donator_salary_handout = {
         _donatorcashbonus = 100000;
     };
 	
-	if (_donatorcashbonus == 0 and community_goal_met) then {
-		_donatorcashbonus = community_goal_salary;
-	};
-	
     if (_donatorcashbonus > 0) then
     {
         [player, _donatorcashbonus] call transaction_dynamiccuntflap;
 		uisleep 2;
         hint format["You received a bonus income of $%1. Thanks for supporting RISE Gaming!", _donatorcashbonus];
-    };
-};
-
-community_salary_handout = {
- 
-    if (community_goal_met) then
-    {
-        [player, community_goal_salary] call transaction_dynamiccuntflap;
-		uisleep 2;
-		_message = format ["You received a bonus of $%1 on your last paycheck because the community donation goal for the month was met."];
-        hint _message;
-		player groupChat _message;
     };
 };
 

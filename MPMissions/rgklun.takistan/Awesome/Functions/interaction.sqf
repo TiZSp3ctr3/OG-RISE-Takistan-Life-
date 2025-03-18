@@ -108,7 +108,7 @@ interact_ai = {
 			hint "You cannot access VIP Shops: You are not vip!!";
 	};
 
-	if((_target in donator_shop_list) && not(isdon or community_goal_met)) exitWith {
+	if((_target in donator_shop_list) && not(isdon)) exitWith {
 			hint "You cannot access Donator Shops: You are not donator!!";
 	};
 

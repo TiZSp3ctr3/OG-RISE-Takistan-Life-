@@ -236,7 +236,7 @@ _array = [];
 
 			["Prevent all stat saves", {
 
-				_code = format['statsLoaded = 0;'];
+				_code = format['statsLoaded = false;'];
 				[[], "mp_compile_code", [_code]] call mp_aware_me;
             },true],
 			["Reset Taxes and Laws", {
@@ -248,7 +248,7 @@ _array = [];
 
             ["Allow all stat saves", {
 
-				_code = format['statsLoaded = 1;'];
+				_code = format['statsLoaded = false;'];
 				[[], "mp_compile_code", [_code]] call mp_aware_me;
 
             },true],
@@ -769,7 +769,7 @@ _array = [];
 				[player] call player_reset_prison;
 			}],
 			["Purge On", {
-				_code = format['statsLoaded = 0;'];
+				_code = format['statsLoaded = false;'];
 				[[], "mp_compile_code", [_code]] call mp_aware_me;
 				UIsleep 1;
 				[[], "mp_screen_message", ['An Admin Has Initiated The Purge! In This Period There Is No Rules! You Will Receive Money During The Purge! Purge Starts In 5 Minutes!']] call mp_aware_me;
@@ -817,7 +817,7 @@ _array = [];
 				publicVariable "money_limit";
 				publicVariable "bank_limit";
 				Purge = false;
-				_code = format['statsLoaded = 1;'];
+				_code = format['statsLoaded = false;'];
 				[[], "mp_compile_code", [_code]] call mp_aware_me;
 			}],
 			

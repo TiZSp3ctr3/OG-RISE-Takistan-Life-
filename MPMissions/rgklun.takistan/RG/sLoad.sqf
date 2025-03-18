@@ -87,8 +87,18 @@ _loadFromDBClient =
 		
 	};
 	
-	if(_varName == 'shares') then {[_varValue] call stocks_load};
-	if(_varName == 'logins') then {player_logins = _varValue};
+	if(_varName == 'shares') then {
+		if (count _varValue > 0) then {
+			[_varValue] call stocks_load;
+		};
+	};
+	if(_varName == 'logins') then {
+		if (_varValue > 0) then {
+			player_logins = _varValue; 
+			statsVerified = true;
+		};
+	};
+
 	if(_varName == 'player_total_playtime') then {player_total_playtime = _varValue};
 	if(_varName == 'online_during_hacker') then {online_during_hacker = _varValue};
 	if(_varName == 'suspended_west') then {call compile format ['player_suspended = %1',_varValue];};

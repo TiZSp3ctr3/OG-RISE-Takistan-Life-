@@ -1,12 +1,11 @@
-if (isNil "statsLoaded") then {statsLoaded = 0;};
-waitUntil {statsLoaded == 1;};
+waitUntil {statsLoaded};
 while {true} do
 {
 	uisleep 100;
 	systemChat "[STATS SAVED]";
 	uisleep 20;
 	
-	if (statsLoaded == 1) then {
+	if (statsLoaded) then {
 		
 		if (isNil "iscop" or isNil "isopf" or isNil "isins" or isNil "isciv" or isNil "isesu") exitWith {player groupChat "You are glitched. Stats will not be saved"};
 		

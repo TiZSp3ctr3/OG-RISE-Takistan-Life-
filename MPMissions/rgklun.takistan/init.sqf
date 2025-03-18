@@ -73,6 +73,8 @@ diag_log "setFriends Section COMPLETE";
 [] execVM "Awesome\Scripts\optimize_1.sqf";
 diag_log "Awesome\Scripts\optimize_1.sqf COMPLETE";
 
+A_SCRIPT_BOMBS = compile (preprocessFileLineNumbers "bombs.sqf"); 
+
 ["init"] execVM "bombs.sqf";
 diag_log "bombs.sqf COMPLETE";
 

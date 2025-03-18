@@ -25,7 +25,6 @@
 	[] execVM "resources\dialogs\hud\playerHud.sqf";
 	[] execVM "core\functions\ranking_functions.sqf";
 	[] execVM "nametags.sqf";
-	[] execVM "RG\cLoad.sqf";
 	[] spawn {
 		waitUntil {!isNil "bis_fnc_customGPS"};
 		["ca\missions_pmc\data\ui_gps_ca.paa",-0.05,-0.2] call bis_fnc_customGPS;
@@ -40,6 +39,18 @@
 	
 	[] call mosque_remove;
 	
+	statsVerified = false;
+	statsCreated = false;
+
+	// Verify client stats exists in db
+	[] execVM "RG\cVerify.sqf";
+
+	waitUntil {statsVerified and statsCreated};
+
+	// Load client stats
+	[] execVM "RG\cLoad.sqf";
+
+
 	if (iscop) then {[] execvm "core\missions\coppatrol.sqf"};
 	
 

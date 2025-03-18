@@ -1,4 +1,4 @@
-if (not(statsLoaded == 1)) exitWith
+if !(stats_loaded) exitWith
 	{
 	hint "Your stats have not loaded and thus will not be saved!";
 };

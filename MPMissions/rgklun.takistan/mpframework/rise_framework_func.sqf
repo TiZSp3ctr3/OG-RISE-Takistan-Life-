@@ -107,7 +107,7 @@ mp_staff_init =
 			if !(donator2 || donator3 || donator4 || isvip) then {
 				isdon = true;
 				donator1 = true;
-				startmoneh = 550000;
+				startmoney = 550000;
 			};
 		};
 		case "snadmin": {
@@ -115,7 +115,7 @@ mp_staff_init =
 			if !(donator2 || donator3 || donator4 || isvip) then {
 				isdon = true;
 				donator1 = true;
-				startmoneh = 550000;
+				startmoney = 550000;
 			};
 		};
 		case "admin": {
@@ -123,7 +123,7 @@ mp_staff_init =
 			if !(donator2 || donator3 || donator4 || isvip) then {
 				isdon = true;
 				donator1 = true;
-				startmoneh = 550000;
+				startmoney = 550000;
 			};
 		};
 		case "mod": {
@@ -131,7 +131,7 @@ mp_staff_init =
 			if !(donator2 || donator3 || donator4 || isvip) then {
 				isdon = true;
 				donator1 = true;
-				startmoneh = 550000;
+				startmoney = 550000;
 			};
 		};
 		case "tsh": {
@@ -139,7 +139,7 @@ mp_staff_init =
 			if !(donator2 || donator3 || donator4 || isvip) then {
 				isdon = true;
 				donator1 = true;
-				startmoneh = 550000;
+				startmoney = 550000;
 			};
 		};
 		default {};
@@ -203,25 +203,25 @@ mp_donor_init =
 	switch (_donor) do
 	{
 		case "1": {isdon = true; donator1 = true;
-			startmoneh = 550000;
+			startmoney = 550000;
 		};
 		case "2": {isdon = true; donator2 = true;
-			startmoneh = 600000;
+			startmoney = 600000;
 			INV_CarryingCapacity = 100;
 			INV_CarryingCapacityOld = 100;
 		};
 		case "3": {isdon = true; donator3 = true;
-			startmoneh = 750000;
+			startmoney = 750000;
 			INV_CarryingCapacity = 200;
 			INV_CarryingCapacityOld = 200;
 		};
 		case "4": {isdon = true; donator4 = true;
 			INV_CarryingCapacity = 300;
 			INV_CarryingCapacityOld = 300;
-			startmoneh = 1000000;
+			startmoney = 1000000;
 		};
 		case "vip": {isdon = true; isvip = true;
-			startmoneh = 1500000;
+			startmoney = 1500000;
 			INV_CarryingCapacity = 500;
 			INV_CarryingCapacityOld = 500;
 		};

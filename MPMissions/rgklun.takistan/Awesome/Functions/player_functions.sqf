@@ -944,6 +944,8 @@ player_set_backpack_gear = {
 	if (isNil "_gear") exitWith {};
 	if (typeName _gear != "ARRAY") exitWith {};
 
+	if !((count _gear) >=1) exitWith {};
+
 	_backpack = _gear select 0;
 	_backpack_weapons = _gear select 1;
 	_backpack_magazines = _gear select 2;
