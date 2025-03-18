@@ -119,6 +119,18 @@ esusiren = 5.2;
 skip_respawn = false;
 blacklists = [false,false,false,false];
 
+HolsterSMG_West = "";
+HolsterPistol_West = "";
+
+HolsterSMG_East = "";
+HolsterPistol_East = "";
+
+HolsterSMG_Res = "";
+HolsterPistol_Res = "";
+
+HolsterSMG_Civ = "";
+HolsterPistol_Civ = "";
+
 
 player_bail = 0;
 processing = false;

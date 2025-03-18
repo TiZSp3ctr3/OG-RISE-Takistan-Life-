@@ -271,7 +271,7 @@ Clothes =
 
 // IMPORTANT
 // The shops use the name (look at the Clothes array) not the classnames
-
+pmc_skin_list = [];
 
 CSL_PMC_1 =
 [
@@ -619,10 +619,3 @@ private["_array"];
 	terror_skin_list set[(count terror_skin_list), (_array select 1)];
 } forEach CSL_TER_1;
 
-pmc_skin_list = [];
-
-private["_array"];
-{
-	_array = [_x] call C_array_d;
-	pmc_skin_list set[(count pmc_skin_list), (_array select 1)];
-} forEach CSL_PMC_1;
