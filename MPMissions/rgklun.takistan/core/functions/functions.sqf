@@ -666,6 +666,7 @@ spawn_select = {
 	titleFadeOut 4;
 	player_dead = false;
 	[player] call name_tags_3d_controls_setup;
+	[] call create_hud;
 
 	if !(player_initial_spawn) then {
 		if (iscop) then {

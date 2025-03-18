@@ -169,4 +169,3 @@ hud_key_handle =
 };
 
 
-[] call create_hud;
