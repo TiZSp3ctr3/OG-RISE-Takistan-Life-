@@ -495,6 +495,7 @@ _generalstore =
 	[
 		["Fuelline", 40, 80],
 		["NVGoggles", -1, -1],
+		["earplugs", -1, -1],
 		["kanister", 20, 40],
 		["repairkit", 15, 30],
 		["Bread", 10, 20],
@@ -584,6 +585,7 @@ _es =
 		["Binocular", 80, 80],
 		["NVGoggles", -1, -1],
 		["GPS", 40, 80],
+		["earplugs", -1, -1],
 		["lockpick", 30, 30],
 		["Fuelline", -1, -1],
 		["Stone", -1, -1]
