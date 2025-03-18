@@ -111,7 +111,9 @@ iniDB_Datarizer = {
 	private["_string", "_type"];
 	_string = _this select 0;
 	_type = _this select 1;
-	
+
+	diag_log format ["iniDB_Datarizer DEBUG: _string: %1, _type: %2",_string,_type];
+
 	if(_type == "ARRAY") then {
 		_string = call compile _string;
 	} else {
@@ -130,6 +132,8 @@ iniDB_read = {
 	_key = _this select 2;
 	_data = [_file, _sec, _key] call iniDB_readRaw;
 	
+	diag_log format ["iniDB_read DEBUG: file: %1, key: %2, sec: %3, data: %4",_file,_key,_sec,_data];
+
 	if((count _this) > 2) then {
 		_type = _this select 3;
 		_data = [_data, _type] call iniDB_Datarizer;
@@ -145,6 +149,8 @@ iniDB_write = {
 	_key = _this select 2;
 	_data = _this select 3;
 	
+	diag_log format ["iniDB_write DEBUG: file: %1, key: %2, sec: %3, data: %4",_file,_key,_sec,_data];
+
 	_data = format['"%1"', _data];
 	_data = [_file, _sec, _key, _data] call iniDB_writeRaw;
 	_data
