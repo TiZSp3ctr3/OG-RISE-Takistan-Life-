@@ -370,6 +370,7 @@ _osfVeh = [
 		["2S6M_Tunguska_OSF", -1, -1],
 		["Ural_ZU23_CDF_OSF", -1, -1],
 		["Ural_CDF_OSF", -1, -1],
+		["GRAD_RU", -1, -1],
 		["LandRover_Special_CZ_EP1_OSF", -1, -1],
 		["GAZ_Vodnik_MedEvac_OSF", -1, -1]
 ];
@@ -495,7 +496,6 @@ _generalstore =
 	[
 		["Fuelline", 40, 80],
 		["NVGoggles", -1, -1],
-		["earplugs", -1, -1],
 		["kanister", 20, 40],
 		["repairkit", 15, 30],
 		["Bread", 10, 20],
@@ -585,7 +585,6 @@ _es =
 		["Binocular", 80, 80],
 		["NVGoggles", -1, -1],
 		["GPS", 40, 80],
-		["earplugs", -1, -1],
 		["lockpick", 30, 30],
 		["Fuelline", -1, -1],
 		["Stone", -1, -1]
@@ -1239,9 +1238,10 @@ _bwv = [
 	["HMMWV_M998A2_SOV_DES_EP1", -1, -1],
 	["AAV", -1, -1],
 	["LAV25", -1, -1],
+	["MLRS_DES_EP1", -1, -1],
+	["MLRS", -1, -1],
 	["AH1Z", -1, -1],
 	["AH64D_Sidewinders", -1, -1]
-
 ];
 
 //Blufor SOBR Air Shop
@@ -1631,7 +1631,7 @@ blufor_colonel_shop =
 		["M2StaticMG_US_Bag_EP1" ,-1,-1],
 		["MK19_TriPod_US_Bag_EP1" ,-1,-1],
 		["TOW_TriPod_US_Bag_EP1" ,-1,-1],
-
+		["M252_US_Bag_EP1", -1, -1],
 
 		["SMAW" ,-1,-1],
 		["SMAW_HEDP" ,-1,-1],
@@ -1788,7 +1788,7 @@ _terrorshop_buy =
 		["Tripod_Bag", -1, -1],
 		["DSHkM_Mini_TriPod_TK_GUE_Bag_EP1", -1, -1],
 		["DSHKM_TK_GUE_Bag_EP1", -1, -1],
-		//["2b14_82mm_TK_INS_Bag_EP1", -1, -1],
+		//["2b14_82mm_TK_GUE_Bag_EP1", -1, -1],
 		["ziptie", -1, -1]
 	];
 
@@ -2006,9 +2006,10 @@ _igs =
 		["Tripod_Bag", -1, -1],
 		["DSHkM_Mini_TriPod_TK_GUE_Bag_EP1", -1, -1],
 		["DSHKM_TK_GUE_Bag_EP1", -1, -1],
-		//["2b14_82mm_TK_GUE_Bag_EP1", -1, -1],
+		["2b14_82mm_TK_INS_Bag_EP1", -1, -1],
 		["Igla", -1, -1],
-		["Igla_mag", -1, -1]
+		["Igla_mag", -1, -1],
+		["Metis_TK_Bag_EP1", -1, -1]
 	];
 
 	// Terrorist Weapons - FOB
@@ -2117,9 +2118,10 @@ _ifw =
 		["Tripod_Bag", -1, -1],
 		["DSHkM_Mini_TriPod_TK_GUE_Bag_EP1", -1, -1],
 		["DSHKM_TK_GUE_Bag_EP1", -1, -1],
-		//["2b14_82mm_TK_GUE_Bag_EP1", -1, -1],
+		["2b14_82mm_TK_INS_Bag_EP1", -1, -1],
 		["Igla", -1, -1],
-		["Igla_mag", -1, -1]
+		["Igla_mag", -1, -1],
+		["Metis_TK_Bag_EP1", -1, -1]
 	];
 
 // Terrorist Plane Shop
@@ -2223,6 +2225,7 @@ _bt =
 		["BTR90_HQ", -1, -1],
 		["BMP2_HQ_TK_EP1",-1,-1],
 		["Ural_ZU23_TK_GUE_EP1", -1, -1],
+		["GRAD_INS", -1, -1],
 		["BRDM2_INS", -1, -1],
 		["BRDM2_ATGM_INS", -1, -1],
 		["T34_Terrorist", -1, -1],
@@ -2254,7 +2257,7 @@ _ifv =
 		["BTR90_HQ", -1, -1],
 		["BMP2_HQ_TK_EP1",-1,-1],
 		["Ural_ZU23_TK_GUE_EP1", -1, -1],
-		["BRDM2_TK_GUE_EP1", -1, -1]
+		["BRDM2_INS", -1, -1]
 	];
 
 _ihvy =
@@ -2380,9 +2383,8 @@ _rgs =
 		["DSHkM_Mini_TriPod_TK_GUE_Bag_EP1", -1, -1],
 		["DSHKM_TK_GUE_Bag_EP1", -1, -1],
 		["KORD_high_TK_Bag_EP1", -1, -1],
-		["KORD_TK_Bag_EP1", -1, -1]
-		//["2b14_82mm_TK_Bag_EP1", -1, -1],
-
+		["KORD_TK_Bag_EP1", -1, -1],
+		["2b14_82mm_TK_Bag_EP1", -1, -1]
 	];
 
 // Opfor Equipment - Fob
@@ -2584,6 +2586,7 @@ _rhvy =
 		["GAZ_Vodnik", -1, -1],
 		["GAZ_Vodnik_MedEvac", -1, -1],
 		["LandRover_SPG9_TK_EP1", -1, -1],
+		["GRAD_TK_EP1", -1, -1],
 		["BRDM2_TK_EP1", -1, -1],
 		["BRDM2_ATGM_TK_EP1", -1, -1],
 		["BMP2_TK_EP1", -1, -1],
@@ -3146,6 +3149,8 @@ _insws =
 		["OG7_don", -1, -1],
 		["Igla", -1, -1],
 		["Igla_mag", -1, -1],
+		["MetisLauncher", -1, -1],
+		["AT13_mag", -1, -1],
 		["SmokeShellYellow", -1, -1],
 		["SmokeShellPurple", -1, -1],
 		["SmokeShellBlue", -1, -1],
@@ -3709,7 +3714,7 @@ INV_ItemShops = [
 		//[terrorshop,"Terrorist Shop",tgunbox,dummyobj,_terrorshop_buy,_terrorshop_buy,false],
 
 		[insfobwep,"Weapons",insfobwep,dummyobj,_ifw,_ifw,false],
-		[insfobcar,"Air Vehicles",dummyobj,insfob_1,_ifv,_ifv,false],
+		[insfobcar,"Vehicles",dummyobj,insfob_1,_ifv,_ifv,false],
 
 		[insurgent_weapons,"Weapons",insurgent_weapons,dummyobj,_igs,_igs,false],
 		[insurgent_air_vehicles,"Air Vehicles",dummyobj,insurgent_air_vehicles_spawn,_ihs,_ihs,false],

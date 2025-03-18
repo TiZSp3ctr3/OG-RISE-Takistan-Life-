@@ -37,9 +37,6 @@ if(isClient) then {
 	[] execVM "Awesome\Scripts\speedgun.sqf";
 };
 
-
-enableEngineArtillery false;
-
 [player, "isstunned", false] call player_set_bool;
 
 ins_area_1 setTriggerActivation ["VEHICLE", "PRESENT", true];
