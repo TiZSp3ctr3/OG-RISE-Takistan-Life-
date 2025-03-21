@@ -51,7 +51,7 @@ open_href_test_dialog = {
 
 
 	_rules ctrlSetStructuredText parseText format["
-	</t><br/><br/><a underline='true' size='0.8' color='#3333FF' href='http://www.rise-gaming.com/takistan-life-rules/'>Click Here</a0></t>"];
+	</t><br/><br/><a underline='true' size='0.8' color='#3333FF' href=''>Click Here</a0></t>"];
 };
 update_gang_menu_display = {
 
@@ -944,7 +944,7 @@ start_menu = {
 
 	];
 	_basics = [
-		"Please read our full list of rules at www.rise-gaming.com\rules",
+		"Please read our full list of rules at ",
 		"If you are a cop or opfor or un please be on Discord, https://discord.gg/dVWvxEZJBj",
 		"Don't RDM (Random Death Match)",
 		"Be respectful (Racism = PERM Ban)",

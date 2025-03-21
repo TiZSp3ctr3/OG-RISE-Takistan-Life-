@@ -55,7 +55,7 @@ class agreement_dialog {
 	class agreement_link: RscEdit
 	{
 		idc = 1001;
-		text = "http://rise-gaming.com/rules/";
+		text = "";
 		x = 0.393359 * safezoneW + safezoneX;
 		y = 0.71 * safezoneH + safezoneY;
 		w = 0.188672 * safezoneW;
